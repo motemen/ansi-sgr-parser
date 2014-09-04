@@ -1,0 +1,27 @@
+{
+  "name": "ansi-sgr-parser",
+  "version": "0.0.0",
+  "description": "Parse ANSI text attribute escape sequences",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader test/*.js"
+  },
+  "keywords": [
+    "ansi",
+    "sgr",
+    "terminal",
+    "term",
+    "vt"
+  ],
+  "author": "motemen <motemen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "power-assert": "^0.9.0",
+    "espower-loader": "^0.9.0",
+    "intelli-espower-loader": "^0.4.0"
+  },
+  "directories": {
+    "test": "test/"
+  }
+}
