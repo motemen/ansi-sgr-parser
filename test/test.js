@@ -21,7 +21,7 @@ describe('Parser', function () {
       [
         'foo',
         {
-          attrs: [ 'foreground yellow', 'bold' ],
+          attrs: [ 'foreground-yellow', 'bold' ],
           raw:   '\x1b[33;1m'
         },
         'bar',
@@ -49,7 +49,7 @@ describe('Parser', function () {
       this.parser.add('33m'),
       [
         {
-          attrs: [ 'foreground yellow' ],
+          attrs: [ 'foreground-yellow' ],
           raw:   '\x1b[33m'
         }
       ]
